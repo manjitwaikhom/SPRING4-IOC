@@ -1,4 +1,4 @@
-package com01.spring5.anno.dependencyInjection;
+package com01.spring5.anno.configuration;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

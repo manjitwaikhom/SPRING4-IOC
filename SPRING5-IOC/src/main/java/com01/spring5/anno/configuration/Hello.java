@@ -1,4 +1,4 @@
-package com01.spring5.anno.dependencyInjection;
+package com01.spring5.anno.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
