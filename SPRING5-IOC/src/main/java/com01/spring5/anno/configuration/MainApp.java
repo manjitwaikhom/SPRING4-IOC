@@ -10,8 +10,11 @@ public class MainApp
 		ApplicationContext ctx=new AnnotationConfigApplicationContext(MyConfig.class);
 		
 		
-		Hello hello=ctx.getBean(Hello.class);
+		Hello hello=ctx.getBean(Hello.class);//getting bean by class
 		hello.show();
+		
+		Hai hai=(Hai) ctx.getBean("haiBean");//getting bean by name
+		hai.show();
 		
 		((AnnotationConfigApplicationContext) ctx).close();
 		

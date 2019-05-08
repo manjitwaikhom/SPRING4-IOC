@@ -13,7 +13,7 @@ public class MyConfig {
 		return new Hello();
 	}
 	
-	@Bean
+	@Bean(name="haiBean")
 	@Scope("singleton")//default scope in singleton
 	public Hai getHai() {
 		return new Hai();

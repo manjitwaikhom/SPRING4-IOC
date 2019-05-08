@@ -16,4 +16,9 @@ public class Hai
 	{
 		System.out.println("Hai-display()");
 	}
+	
+	public void show()
+	{
+		System.out.println("Hai-show()");
+	}
 }
